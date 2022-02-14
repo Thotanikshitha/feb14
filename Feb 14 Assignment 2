@@ -1,9 +1,9 @@
-count = 0
-number=int (input ('Enter a number')) 
-While (number>0) :
-number = number//10
-Count = count+1
-Print('total number of digits:'count) 
+n=int(input("Enter number:"))
+count=0
+while(n>0):
+    count=count+1
+    n=n//10
+print("The number of digits in the number are:",count)
 OUTPUT:
 Enter a number:5678
 Total number of digits:4
